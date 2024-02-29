@@ -1,2 +1,2 @@
 # npx-biz-card
-Cute business card built in bash.
+Cute business card for CLI.
