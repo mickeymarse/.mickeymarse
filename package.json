@@ -1,6 +1,6 @@
 {
   "name": "npxbizcard",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Cute business card built in bash.",
   "main": "index.js",
   "bin": "./cli.js",
