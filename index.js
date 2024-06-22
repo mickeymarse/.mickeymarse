@@ -1,5 +1,3 @@
-# ./index.js
-
 const { render } = require('prettyjson')
 const data = require('./lib/data')
 
@@ -9,4 +7,4 @@ const renderOpts = {
   stringColor: 'white'
 }
 
-module.exports = () => render(data, renderOpts)
+module.exports = ({ json }) => json ? JSON.stringify(data) : render(data, renderOpts)
