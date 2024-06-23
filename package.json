@@ -1,7 +1,7 @@
 {
-  "name": "npxbizcard",
+  "name": "mickeydeets",
   "version": "2.0.0",
-  "description": "Cute business card built in bash.",
+  "description": "Cute business card built with Node.",
   "main": "index.js",
   "bin": "./cli.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cowsay": "^1.6.0",
     "prettyjson": "^1.2.5"
   }
 }
