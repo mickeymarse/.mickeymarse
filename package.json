@@ -1,17 +1,28 @@
 {
-  "name": "mickeydeets",
+  "name": "mickeymarse",
   "version": "2.0.0",
-  "description": "Cute business card built with Node.",
+  "description": "biz card built with node",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mickeymarse/mickeydeets.git"
+  },
   "bin": "./cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "mickeymarse",
+    "contact",
+    "details"
+  ],
+  "homepage": "https://github.com/mickeymarse/mickeydeets#readme",
+  "author": "Mickey <mmserrapica@tutanota.com> (https://mickeymarse.dev/)",
   "license": "ISC",
   "dependencies": {
     "cowsay": "^1.6.0",
+    "lodash.omit": "^4.5.0",
+    "minimist": "^1.2.8",
     "prettyjson": "^1.2.5"
   }
 }
